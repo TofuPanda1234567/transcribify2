@@ -1,0 +1,31 @@
+html * {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fullPage{
+    background-image: url("computer.jpg");
+    width: 100%;
+}
+
+/* LANDING PAGE */
+/* TOP OF PAGE */
+.mainBanner{
+    align-items: center;
+    margin-inline: 20px;
+    background-color: blue;
+}
+
+.mainHeader{
+    font-size: 40px;
+    margin: 40px;
+    position: relative;
+}
+
+
+/* SIGN UP */
+
+.signUp{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
