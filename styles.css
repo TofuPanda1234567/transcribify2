@@ -1,31 +1,64 @@
-html * {
+html, body {
     font-family: 'Courier New', Courier, monospace;
-}
-
-.fullPage{
-    background-image: url("computer.jpg");
-    width: 100%;
+    background-color: #2F2FA2;
 }
 
 /* LANDING PAGE */
 /* TOP OF PAGE */
 .mainBanner{
-    align-items: center;
-    margin-inline: 20px;
-    background-color: blue;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
 }
 
 .mainHeader{
-    font-size: 40px;
+    font-size: 35px;
+    color: #F64C72;
     margin: 40px;
     position: relative;
+    font-style: italic;
 }
 
+#transcribifyLogo{
+    width: 30%;
+}
 
 /* SIGN UP */
 
 .signUp{
+    float: left;
     margin: auto;
-    width: 80%;
+    margin-top: 15%;
     text-align: center;
+    width: 30%;
+    color: white;
+}
+
+.signUpText{
+    font-weight: lighter;
+}
+
+.signUpButton{
+    color: white;
+    background-color: #F64C72;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 15px;
+}
+.learnNowButton{
+    color: white;
+    background-color: #F64C72;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
