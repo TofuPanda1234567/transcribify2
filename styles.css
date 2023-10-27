@@ -5,11 +5,12 @@ html, body {
 
 /* LANDING PAGE */
 /* TOP OF PAGE */
+
 .mainBanner{
     position: absolute;
     top: 0; 
     left: 0; 
-    width: 100%; 
+    width: 100vw; 
     color: white;
 }
 
@@ -23,7 +24,7 @@ html, body {
 }
 
 .transcribifyLogo{
-    width: 30%;
+    width: 30vw;
     display: inline;
 }
 
@@ -46,7 +47,7 @@ html, body {
     margin: auto;
     margin-top: 15%;
     text-align: center;
-    width: 35%;
+    width: 35vw;
     color: white;
 }
 
@@ -65,6 +66,7 @@ html, body {
     display: inline-block;
     font-size: 16px;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .learnNowButton{
     color: white;
@@ -76,4 +78,80 @@ html, body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-top: 15px;
+}
+
+.learnNowButton:hover, .signUpButton:hover, #headerTrialButton:hover, #headerLoginButton:hover, .mainHeader:hover{
+    cursor: pointer;
+}
+
+/* FOR MOBILE */
+@media screen and (max-width: 600px){
+    /* TOP OF SCREEN*/
+    html * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .mainBanner{
+        position: absolute;
+        top: 0; 
+        left: 0; 
+        width: 100vw; 
+        color: white;
+    }
+
+    .mainHeader{
+        display: none;
+    }
+
+    .transcribifyLogo{
+        width: 50vw;
+        display: inline;
+    }
+
+    #headerTrialButton, #headerLoginButton{
+        display: none;
+    }
+
+    /* SIGN UP*/
+    .signUp{
+        float: center;
+        margin: auto;
+        margin-top: 15%;
+        text-align: center;
+        width: 35vw;
+        color: white;
+    }
+    
+    .signUpText{
+        font-weight: lighter;
+        font-size: 35px;
+        margin-top: 0px;
+        padding: 0px;
+        display: block;
+    }
+
+    .signUpButton{
+        color: white;
+        background: linear-gradient(90deg, rgba(246,76,114,1) 35%, rgba(255,136,99,1) 100%);
+        border: none;
+        color: white;
+        padding: 7.5px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .learnNowButton{
+        color: white;
+        background: linear-gradient(90deg, rgba(246,76,114,1) 35%, rgba(255,136,99,1) 100%);
+        border: none;
+        color: white;
+        padding: 7.5px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+    }
 }
