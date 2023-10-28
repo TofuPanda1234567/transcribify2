@@ -17,15 +17,17 @@ html, body {
 .mainHeader{
     font-size: 16px;
     color: white;
-    margin-right: 15px;
+    margin-right: 1.5vw;
     align-self: right;
     position: relative;
     display: inline;
+    text-decoration: none;
 }
 
 .transcribifyLogo{
     width: 30vw;
     display: inline;
+    margin-right: 15vw;
 }
 
 #headerTrialButton, #headerLoginButton{
@@ -52,6 +54,7 @@ html, body {
 }
 
 .signUpText{
+    font-size: 25px;
     font-weight: lighter;
 }
 
@@ -83,6 +86,7 @@ html, body {
 
 .learnNowButton:hover, .signUpButton:hover, #headerTrialButton:hover, #headerLoginButton:hover, .mainHeader:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
 /* FOR MOBILE */
