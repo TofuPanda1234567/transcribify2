@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TranscribifyAI - Login </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <!-- TOP OF PAGE-->
+    <div class="topOfPage">
+        <span class="mainBanner">
+            <a href="/">
+                <img src="images/transcribifyLogo.png" alt="" class="transcribifyLogo">
+            </a>
+            <div class="mainBannerMainButtons">
+                <a class="mainHeader" href="/features.html"> Features </a>
+                <a class="mainHeader" href="/howItWorks.html"> How It Works </a>
+                <a class="mainHeader" href="pricing.html"> Pricing </a>
+                <a class="mainHeader" href="faqs.html"> FAQs </a>
+                <button class="mainHeader" id="headerTrialButton">
+                    <a href="getStarted.html" id="getStartedHyperlink"> Start Trial </a>
+                </button>
+                <button class="mainHeader" id="headerLoginButton">
+                    <a href="login.html" id="loginLink"> Login </a>
+                </button>
+            </div>
+        </span>
+
+        <!-- DROP DOWN MENU-->
+        <input type="checkbox" class="dropcheck" id="dropcheck">
+        <label for="dropcheck" class="dropbtn">
+            <div class="dropdownButton"></div>
+            <div class="dropdownButton"></div>
+            <div class="dropdownButton"></div>
+        </label>
+        <div class="dropdownMenu">
+
+            <div class="mainBannerMainButtons">
+                <a class="mobileMainHeader" href="/features.html"> Features </a>
+                <a class="mobileMainHeader" href="/howItWorks.html"> How It Works </a>
+                <a class="mobileMainHeader" href="pricing.html"> Pricing </a>
+                <a class="mobileMainHeader" href="faqs.html"> FAQs </a>
+                <button class="mobileMainHeader" id="headerTrialButton">
+                    <a href="getStarted.html" id="getStartedHyperlink"> Start Trial </a>
+                </button>
+                <button class="mobileMainHeader" id="headerLoginButton">
+                    <a href="login.html" id="loginLink"> Login </a>
+                </button>
+            </div>
+        </div>
+
+        <!-- LOGIN FORM -->
+
+
+        <div id="login_form">
+
+            <a class="hiddenanchor" id="toregister"></a>
+
+            <a class="hiddenanchor" id="tologin"></a>
+
+            <div id="wrapper">
+
+                <div id="login" class="animate form">
+
+                    <form action="mysuperscript.php" autocomplete="on">
+
+                        <h1 id="loginHeaders">Log in</h1>
+
+                        <p>
+
+                            <label for="username" class="uname" data-icon="u"> Your email or username </label>
+
+                            <input id="username" name="username" required="required" type="text"
+                                placeholder="myusername or mymail@mail.com" />
+
+                        </p>
+
+                        <p>
+
+                            <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+
+                            <input id="password" name="password" required="required" type="password"
+                                placeholder="eg. X8df!90EO" />
+
+                        </p>
+
+                        <p class="keeplogin">
+
+                            <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
+
+                            <label for="loginkeeping">Keep me logged in</label>
+
+                        </p>
+
+                        <p class="login_button">
+
+                            <input id="login_button" type="submit" value="Login" />
+
+                        </p>
+
+                        <p class="change_link">
+
+                            Not a member yet ?
+
+                            <a href="/getStarted.html" class="to_register">Join us</a>
+
+                        </p>
+
+                    </form>
+
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+
+
+
+        <script src="main.js"></script>
+
+
+</body>
+
+</html>

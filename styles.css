@@ -104,8 +104,8 @@ html, body {
 /* LANDING PAGE IMAGE*/
 
 .landingPageImage {
-    width: 110%;
-    margin-top: -55vh;
+    width: 100%;
+    margin-top: -54vh;
     margin-left: 45vw;
 }
 
